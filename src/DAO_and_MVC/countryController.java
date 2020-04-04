@@ -3,7 +3,7 @@ package DAO_and_MVC;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//Countrycontroller.java use clientProgram.java to create and list
 public class countryController {
 	
 	private viewCountry vista= new viewCountry();
