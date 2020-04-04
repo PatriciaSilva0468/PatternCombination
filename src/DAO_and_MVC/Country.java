@@ -6,6 +6,7 @@ public class Country {
 	private String code ; //Making the variable private for encapsulation
 	private String name ; //Making the variable private for encapsulation
 	private continent continent; //Making the variable private for encapsulation
+	//Using float to store surfacearea
     private float surfacearea; //Making the variable private for encapsulation
     private String headofstate ; //Making the variable private for encapsulation
     
