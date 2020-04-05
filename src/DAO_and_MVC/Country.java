@@ -1,3 +1,4 @@
+// @author  Patricia Aparecida Da Silva (s2017146)
 package DAO_and_MVC;
 
 //This class its a model, country 

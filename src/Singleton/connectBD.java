@@ -1,3 +1,4 @@
+// @author  Patricia Aparecida Da Silva (s2017146)
 package Singleton;
 
 import java.sql.Connection; //Importing java.sql connection for connection with the lecturer database

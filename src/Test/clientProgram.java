@@ -1,3 +1,4 @@
+// @author  Patricia Aparecida Da Silva (s2017146)
 package Test;
 
 import java.util.Scanner; //To read input from the keyboard
