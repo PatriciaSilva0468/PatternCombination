@@ -15,9 +15,9 @@ public class countryController { //public class countryController
 	public countryController() { //Default constructor
 	}
 	
-	public void register(Country country) {
+	public void register(Country country) { //register method
 		IcountryDAO dao= new  countryDAOimplement(); //Creating an object to provides access to the database or any other storage
-		dao.create(country); //Creating the object itself
+		dao.create(country); //Creating the object country itself
 	}
 
 	public void list_countrys(){ //list_country method

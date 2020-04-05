@@ -11,7 +11,7 @@ public class Country {
     private float surfacearea; //Making the variable private for encapsulation
     private String headofstate ; //Making the variable private for encapsulation
     
-    //Constructor overloading setting parameter list
+    //Overloaded constructor setting parameter list
 	public Country(String code, String name, float surfacearea, String headofstate, continent c) {
 		super();
 		

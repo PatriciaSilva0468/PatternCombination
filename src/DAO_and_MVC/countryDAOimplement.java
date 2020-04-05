@@ -59,7 +59,7 @@ public class countryDAOimplement implements IcountryDAO {
 			rs=stm.executeQuery(sql); //Returns one ResultSet object
 			String code, name, headofstate,continent; //Variable of type string
         	float surfacearea ; //float used to store surfacearea
-        	continent continents = null;
+        	continent continents = null; //continent equal to null
         	
         	//while sql statement is running to get code, name, headof state, surfacearea and continent
 			while (rs.next()) {
@@ -105,7 +105,7 @@ public class countryDAOimplement implements IcountryDAO {
 				listCountry.add(c);
 			}
 			stm.close(); //Close statement
-			rs.close();
+			rs.close(); //Close Resultset
 		} catch (SQLException e) { //Try catch for sql exception
 			System.out.println("Fail"); //System print out fail if there is a error
 			
@@ -118,7 +118,7 @@ public class countryDAOimplement implements IcountryDAO {
 	}
 
 	@Override
-	//Setting the parameters to create a public class which will search the countries by code
+	//Setting the parameters to create a public method which will search the countries by code
 	public Country list_by_code(String code_to_search){
 		Connection co =null; //Connection is equal to null
 		Statement stm= null; //Setting statement to null
@@ -191,7 +191,7 @@ public class countryDAOimplement implements IcountryDAO {
 	}
 
 	@Override
-	//Setting the parameters to create a public class which will search the countries by name
+	//Setting the parameters to create a public method which will search the countries by name
 	public Country list_by_name(String name_to_search){
 		Connection co =null; //Connection equal to null
 		Statement stm= null; //Setting statement to null
