@@ -18,6 +18,7 @@ The View in this case is the UI components such as XML, HTML. View shows the inf
 Finally, the Controller process all incoming requests. It processes the user’s data through the Model and sending back the results to View. It is a mediator between the View and the Model.
 
 References
+
 Sinhal, A. (2017). MVC, MVP and MVVM Design Pattern. M, 3rd January. Available at: https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad [Accessed 26th March 2020].
 Smok. (2019). Factory, Builder, Singleton... Creational Design Patterns!. Available at: https://www.youtube.com/watch?v=VCxNt2K7aVY [Accessed 5th April 2020].
 Stackoverflow. (2010). Difference between singleton and factory pattern. Available at: https://stackoverflow.com/questions/2094211/difference-between-singleton-and-factory-pattern [Accessed 5th April 2020].
